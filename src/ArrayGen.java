@@ -30,7 +30,7 @@ public class ArrayGen{
         Random rand = new Random();
         for(int _i=0;_i<arr.length;_i++)
         {
-            arr[_i] = rand.nextInt(min,max);
+            arr[_i] = rand.nextInt(min,max+1);
         }
     }
 
